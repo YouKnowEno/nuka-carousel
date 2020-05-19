@@ -26,11 +26,31 @@ Desktop.ini
 $RECYCLE.BIN/
 
 # App specific
-
 node_modules/
 bower_components/
 .tmp
 dist
+
+# BuildOnly
+.github
+.vscode
+demo
+src
+test
+.babelrc
+.eslintignore
+.eslintrc
+.npmignore
+.travis.yml
+CONTRIBUTING.md
+jest-puppeteer.config.js
+jest.e2e.config.js
+jest.unit.config.js
+prettier.config.js
+tslint.json
+webpack.config.js
+webpack.dist.config.js
+yarn.lock
 
 yarn-error.log*
 package-lock.json
