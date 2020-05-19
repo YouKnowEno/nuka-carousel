@@ -129,6 +129,7 @@ export default class ScrollTransition extends React.Component {
         : 1.0;
 
     return {
+      outline: 'none',
       boxSizing: 'border-box',
       display: this.props.vertical ? 'block' : 'inline-block',
       height: getSlideHeight(this.props),

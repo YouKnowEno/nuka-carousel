@@ -71,7 +71,7 @@ export default class Carousel extends React.Component {
       slideCount: getValidChildren(this.props.children).length,
       top: 0,
       wrapToIndex: null,
-      hasFocus: false,
+      hasFocus: true,
       ...calcSomeInitialState(this.props)
     };
 
@@ -518,7 +518,7 @@ export default class Carousel extends React.Component {
   }
 
   handleBlur() {
-    this.setState({ hasFocus: false });
+    this.setState({ hasFocus: true });
   }
 
   handleClick(event) {
